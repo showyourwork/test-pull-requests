@@ -1,2 +1,3 @@
-version: f77ec5fd4e4b9f5321d17337522cc101df183f0a
-
+version:
+  fork: https://github.com/dfm/showyourwork.git
+  ref: 24f1d492bcbdd5d42ab7a3fc3147aeea040016f0
