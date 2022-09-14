@@ -1,3 +1,3 @@
-version: cbbd33da0925371441e9a4a94b1b0bcca105ec5b
-
-
+version:
+  fork: https://github.com/rodluger/showyourwork-dev.git
+  ref: 9ffa61342c19d86807ff2cb754ba142088755b3b
