@@ -1,0 +1,14 @@
+name: process pull request
+
+on:
+  workflow_run:
+    workflows: [build pull request]
+    types: [completed]
+
+jobs:
+  process-pr:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Process pull request
+        uses: showyourwork/showyourwork-action/process-pull-request@085c01791d75285222ba2345b93184046f6e9672
